@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
+
 const Home = () => {
     return (
-        <main>
-            <h1>NextAuth.js</h1>
-            <Link href='/register'>Register Page</Link>
-            <Link href='/login'>Login Page</Link>
-        </main>
+        <section className='w-full flex-center flex-col'>
+            <h1 className='head_text text-center'>NextAuth.js</h1>
+            <Link href='/register' className='black_btn desc text-center'>Register Page</Link>
+            <Link href='/login' className='black_btn desc text-center'>Login Page</Link>
+        </section>
     )
 }
 
